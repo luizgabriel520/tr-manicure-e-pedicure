@@ -1,0 +1,386 @@
+/* Reset de Estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para simular efeito 3D */
+}
+
+h2 {
+    color: #000000;
+}
+
+p {
+    color: #ffffff;
+}
+
+
+.fade-in {
+    opacity: 0; /* Inicia com opacidade 0 */
+    animation: fadeInAnimation 2s ease-in forwards; /* Aplica a animação de fade-in */
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0; /* Inicia com opacidade 0 */
+    }
+    to {
+        opacity: 1; /* Finaliza com opacidade 1 */
+    }
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.blur-text {
+    opacity: 0;
+    filter: blur(10px); /* Aplica um desfoque inicial */
+    transition: opacity 10s ease, filter 1s ease; /* Adiciona uma transição suave */
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+/* Estilos para o banner do topo */
+.top-banner {
+    background-image: url('Banner\ para\ youtube\ sobre\ carros\ moderno\ vermelho\ e\ preto.png');
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    color: #ff006a;
+    padding: 250px 0;
+}
+
+/* Estilos para o conteúdo do banner do topo */
+.top-banner .inner {
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilos para o título do banner do topo */
+.top-banner h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Estilos para os botões do banner do topo */
+.top-banner .actions.special {
+    margin-top: 20px;
+}
+
+.top-banner .button.primary {
+    background-color: #d9534f;
+}
+
+.top-banner .more.scrolly:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+h1 {
+    font-size: 2em;
+}
+
+/* Estilos para a Seção do Banner após o Menu */
+#banner-after-menu {
+    background-image: url('Fundo\ preto.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    color: rgb(255, 0, 106);
+    padding: 140px 0; /* Ajuste conforme necessário */
+    margin-top: 10px;
+}
+
+/* Estilos do Texto e Botão no Banner */
+#banner .inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 5em 0;
+}
+
+#banner h2 {
+    font-size: 3em;
+    margin-bottom: 15em;
+    font-weight: bold;
+}
+
+#banner .actions.special {
+    margin-top: 2em;
+}
+
+#banner .button.primary {
+    background-color: #d9534f;
+}
+
+#banner .more.scrolly:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Estilos do Menu de Navegação */
+nav {
+    font-family: 'Arial', sans-serif;
+    text-shadow: 3px 5px 4px rgb(0, 0, 0); /* Sombra do texto */
+    background-color: rgb(255, 0, 212);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    border-bottom: 5px solid white; /* Adicionando borda branca na parte inferior */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+/* Estilos do Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.btn-3d {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #000000;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    border-bottom: 4px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-3d:hover {
+    transform: translateY(2px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra do texto ao passar o mouse */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info,
+.social-media {
+    flex: 1;
+}
+
+.social-links a {
+    color: #ff00aa;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Ícone do WhatsApp */
+.social-links a[href*="whatsapp"]:hover {
+    color: rgb(0, 255, 0); /* Altere para a cor desejada para o ícone do WhatsApp */
+}
+
+/* Ícone do Instagram */
+.social-links a[href*="instagram"]:hover {
+    color: magenta; /* Altere para a cor desejada para o ícone do Instagram */
+}
+
+/* Ícone do Facebook */
+.social-links a[href*="facebook"]:hover {
+    color: blue; /* Altere para a cor desejada para o ícone do Facebook */
+}
+
+
+
+/* Estilos para a Seção de Boas-Vindas com Banner */
+#welcome-banner {
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 0, 128);
+    text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    padding: 200px 20px;
+    background: url('banner3.png') center/cover no-repeat;
+    margin-top: -60px;
+}
+
+.banner-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.welcome-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilos para a Seção de Destaques com Tema de Manicure */
+#destaques {
+    background-color: rgb(255, 0, 43);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    padding: 50px 0;
+}
+
+#destaques .spotlight {
+    background-color: rgb(255, 0, 43);
+    margin-bottom: 30px;
+}
+
+/* Estilos para a Seção "Três" */
+#three.no-margin {
+    margin-bottom: 0;
+}
+
+/* Seção de Recursos Especiais com Tema de Manicure */
+#recursos {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(60, 255, 0);
+    text-shadow: 4px 2px 6px rgb(0, 0, 0); /* Sombra do texto */
+    color: hsl(0, 0%, 0%);
+    padding: 50px 0;
+}
+
+#recursos .spotlight {
+    background-color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra do texto */
+    margin-bottom: 30px;
+}
+
+/* Seção de Agendamento de Manicure */
+#agendamento {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(255, 230, 0);
+    text-shadow: 4px 2px 6px rgb(0, 0, 0); /* Sombra do texto */
+    padding: 80px 0;
+}
+
+#agendamento .spotlight {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+#galeria {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery .image img {
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
+}
+
+/* Estilos para a Galeria de Fotos */
+.gallery .image img {
+    width: 100%;
+    height: 600px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Garante que a imagem cubra o contêiner mantendo suas proporções */
+    border: 10px solid rgb(255, 255, 255); /* Adicionando borda branca */
+    transition: transform 0.3s ease; /* Adicionando uma transição suave */
+}
+
+
+/* Efeito de zoom ao passar o mouse */
+.gallery .image img:hover {
+    transform: scale(1.1); /* Aumenta em 10% o tamanho da imagem */
+}
+
+.logo {
+    width: 200px; /* Ajuste o tamanho da logo conforme necessário */
+    margin-top: 10px; /* Ajuste a margem conforme necessário para posicioná-la abaixo do texto */
+}
+
+/* Estilo para os ícones */
+.icon i {
+    color: rgb(255, 0, 212); /* Define a cor dos ícones como branco */
+}
+
+/* Estilo para centralizar o conteúdo */
+.wrapper.style2 {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo para os ícones */
+.fa-paint-brush, .fa-spa, .fa-heartbeat {
+    color: rgb(255, 0, 212); /* Cor rosa */
+    text-shadow: 2px 2px 4px rgba(255, 0, 221, 0.5); /* Sombra do texto */
+}
+
+/* Estilos para o título */
+/* Estilos para o título principal */
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 50px; /* Ajuste conforme necessário */
+    color: #000000; /* Cor do texto */
+    text-shadow: 2px 2px 4px rgb(255, 255, 255); /* Sombra do texto */
+    transition: color 0.5s ease, text-shadow 0.5s ease; /* Transições suaves */
+}
+
+/* Estilos para o título principal quando o mouse passa por cima */
+h1:hover {
+    color: rgb(255, 0, 212); /* Nova cor do texto ao passar o mouse */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra do texto ao passar o mouse */
+}
+

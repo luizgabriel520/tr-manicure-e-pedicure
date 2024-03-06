@@ -1,0 +1,64 @@
+/* Estilos para a Seção do Banner Galeria */
+#banner-galeria {
+    background-image: url('Pink\ Gaming\ YouTube\ Channel\ Art.png'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    text-shadow: 2px 2px 6px rgba(255, 247, 254, 0.8); /* Sombra do texto ao passar o mouse */
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 200px 0; /* Ajuste conforme necessário */
+}
+
+#banner-galeria h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#banner-galeria p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+nav {
+    background-color: #ff00dd;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8); /* Sombra do texto ao passar o mouse */
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery .image img {
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
+}
+
+/* Efeito de zoom ao passar o mouse */
+.gallery .image img:hover {
+    transform: scale(1.1); /* Aumenta em 10% o tamanho da imagem */
+}

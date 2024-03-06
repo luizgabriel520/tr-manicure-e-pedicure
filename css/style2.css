@@ -1,0 +1,108 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra do texto ao passar o mouse */
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff00dd;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.8); /* Sombra do texto ao passar o mouse */
+    padding: 2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff0;
+}
+
+section {
+    padding: 2em;
+}
+
+h2 {
+    color: #000000;
+}
+
+p {
+    color: #ff00bf;
+}
+
+/* Estilos específicos da seção de serviços */
+.service {
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 1em;
+    background-color: #f9f9f9;
+}
+
+.service h2 {
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+.service p {
+    color: #666;
+}
+
+/* Estilos para a Seção do Banner Galeria */
+#banner-galeria {
+    background-image: url('serv.png'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 200px 0; /* Ajuste conforme necessário */
+}
+
+#banner-galeria h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#banner-galeria p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#banner-galeria .button {
+    background-color: #ff00dd;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#banner-galeria .button:hover {
+    background-color: #ff33ee;
+}
+
